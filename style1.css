@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.extra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#name_surname {
+    background-color: white;
+    width: 700px;
+    height: auto;
+    font-size: 65px;
+    text-align: center;
+    color: black;
+    border-bottom: solid;
+    border-bottom-width: 4px;
+    margin-top: 50px;
+}
+
+#information {
+    background-color: white;
+    width: 700px;
+    height: auto;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    border-bottom: solid;
+    border-bottom-width: 4px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 700px;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    border-bottom-width: 4px;   
+}
+
+li {
+    float: left;
+    list-style: none;
+    background-color: white;
+    width: 175px;
+    line-height: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+
+a li:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+#div_for_hobbies{ 
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    background-image: url(for_last_part.jpg);
+}
+
+.last_part{
+    text-align: center;
+    width: 233px;
+    color: white;
+}
